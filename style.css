@@ -1,0 +1,132 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 30px;
+    background-color: #333;
+    color: white;
+}
+
+.navbar h1 {
+    margin: 0;
+}
+
+.search-box {
+    display: flex;
+    gap: 10px;
+}
+
+.search-box input {
+    width: 300px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-box button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#themeButton {
+    padding: 20px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+.books-section {
+    padding: 30px;
+}
+
+.books-section h2 {
+    text-align: center;
+}
+
+.books-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+
+
+.book-card {
+    width: 200px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;
+}
+
+.book-card img {
+    width: 150px;
+    height: 220px;
+    object-fit: cover;
+}
+
+.book-card h3 {
+    font-size: 18px;
+}
+
+.book-card p {
+    font-size: 14px;
+}
+
+
+
+.library-section {
+    padding: 30px;
+}
+
+.library-section h2 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: white;
+}
+
+
+
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+.dark-mode .book-card {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .library-section {
+    color: white;
+}
+
+

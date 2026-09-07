@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>My First Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+            <!-- header -->
+   <header>
+
+
+<nav class="navbar"> <h1>📚 Book Explorer</h1>
+     <div class="search-box"> <input type="text" id="searchInput" placeholder="Search for a book...">
+         <button id="searchButton">Search</button> </div> 
+         <button id="themeButton">🌙</button> 
+        </nav>
+   </header>         
+
+
+<!-- card -->
+<section
+ class="books-section"> 
+ <h2>Book Results</h2>
+  <div id="booksContainer" class="books-container"> </div>
+ </section>
+
+
+
+
+<section class="library-section">
+
+    <h2>My Personal Library</h2>
+
+    <table>
+
+        <thead>
+            <tr>
+               <th>ID</th>
+               <th>Book Name</th>
+                <th>Author</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+
+        <tbody id="libraryTable">
+
+        </tbody>
+
+    </table>
+
+</section>
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
